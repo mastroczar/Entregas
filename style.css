@@ -1,0 +1,172 @@
+html, body, div, img, header, section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+
+
+.Logo-Título{
+    background-color: rgba(12, 11, 11, 0.986);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    ;
+}
+
+.logo{
+    position:absolute;
+    left:47%;
+    top:10%;
+    margin-left:-170px;
+    margin-top:-40px;
+    margin-bottom: 50;
+    justify-content: center;
+    }
+
+.título{
+    position:absolute;
+    left:47%;
+    top:10%;
+    margin-left:-150px;
+    margin-top:90px;
+    margin-bottom: 50;
+    color: white;
+}
+.título2{
+    position:absolute;
+    font-size: 10px;
+    left:52%;
+    top:10%;
+    margin-left:-100px;
+    margin-top:500px;
+    margin-bottom: 50;
+    color:grey;
+}
+
+
+.container {
+    display: flex;
+    border-color: rgb(12, 11, 11);
+    justify-content: center;
+}
+.box{
+    width: 154px;
+    margin-top: 300px;
+    height: 150px;
+    margin-left: 15px;
+    background-color: rgba(34, 29, 29, 0.986);
+    border-radius: 8px;
+    border: 7px solid;
+    
+}
+.texto1{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 25px;
+        font-size: 20px;
+}
+.texto2{
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    margin-top:1px
+}
+  
+
+.box1{
+    width: 154px;
+    margin-top: 300px;
+    height: 150px;
+    margin-left: 15px;
+    background-color: rgba(34, 29, 29, 0.986);
+    border-radius: 8px;
+    border: 7px solid;
+
+
+}
+
+.box2{
+    width: 154px;
+    margin-top: 300px;
+    height: 150px;
+    margin-left: 15px;
+    background-color: rgba(19, 16, 16, 0.986);
+    border-radius: 8px;
+    border: 7px solid;
+}
+.box3{
+    width: 154px;
+    margin-top: 300px;
+    height: 150px;
+    margin-left: 15px;
+    background-color: rgba(34, 29, 29, 0.986);
+    border-radius: 8px;
+}
+.box4{
+    height: 50px;
+    width: 154px;
+    border-color: transparent;
+    border: solid 2px;
+    background-color: rgba(34, 29, 29, 0.986);
+    border-radius: 8px ;
+    text-align: center;
+    
+}
+
+.imagem1 {
+    margin: 85px 44px 44px 64px;
+}
+.imagem2 {
+    margin: -65px 64px 2px 64px;
+    margin-left: 75px  ;
+}
+.imagem3 {
+    margin: -60px 20px 44px 46px;
+    margin-top: -50px;
+    margin-left: 48px   ;
+}
+
+.container .box img:hover {
+    border: solid 4px white;
+    transition: 0,5s;
+    border-radius: 8px;
+}
+.container .box2 img:hover {
+    border: solid 4px white;
+    transition: 0,5s;
+    border-radius: 8px;
+}
+.container .box3 img:hover {
+    border: solid 4px white;
+    transition: 0,5s;
+    border-radius: 8px;
+}
+.container .box1 img:hover {
+    border: solid 4px white;
+    transition: 0,5s;
+    border-radius: 8px;
+}
+
+
+.container .título2:hover {
+    box-shadow: white;
+    text-emphasis-color: white;
+    background-color: white;
+    color: white;
+    border: white;
+    border-radius: 8px;
+    border: solid 2px;
+  
+    
+}
+
